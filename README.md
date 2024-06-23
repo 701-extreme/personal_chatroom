@@ -6,6 +6,20 @@ Every time the user enters the web, they are prompt to login. If users are inten
 Every user should only be able to send message with their registered name.
 Every user can only see the message they sent to target, and messages they've received. 
 
+Before running, check if all requirements are installed by running
+```bash
+pip install -r ./server/requirements.txt
+```
+
+To run the server
+```bash
+./run server
+```
+To run the client
+```bash
+./run client
+```
+
 Run command below to view repository map
 ```bash
 ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'

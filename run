@@ -1,2 +1,16 @@
-cd server
-python3 app.py
+#!/bin/sh
+
+if [ $# -lt 1 ]; then
+    echo "Usage: ./run [server|client]"
+    exit 0
+fi
+
+if [ $1 = "server" ]; then
+    cd server
+    python3 app.py
+elif [ $1 = "client" ]; then
+    cd client
+    npm start
+else
+    echo "Unrecognised control"
+fi
