@@ -1,5 +1,5 @@
 # personal_chatroom
-This is a chatroom website. 
+This is a chatroom website. We will be using gunicorn and nginx as the channel to connect to the front end.
 
 Every time the user enters the web, they are prompt to login. If users are intending to bypass the login, they should be redirected to the login page, while error message is displayed and notified, sent and stored to the backend data base. This attempt will store the time, and the ip where the connection comes from. 
 

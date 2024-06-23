@@ -3,3 +3,10 @@ https://centerkey.com/tree/
 
 running on HTTPS:
 https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+
+setting up nginx:
+https://ubuntu.com/tutorials/install-and-configure-nginx#4-setting-up-virtual-host
+
+nginx and gunicorn setup:
+https://youtu.be/KWIIPKbdxD0?si=M5F9xVybnz_JEySx
+
