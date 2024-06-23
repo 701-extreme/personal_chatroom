@@ -4,8 +4,8 @@ app = Flask(__name__)
 app.debug=True
 
 @app.route('/')
-def index():
-    return "Hello World!"
+def home():
+    return render_template('home.html')
 
 if __name__ == "__main__":
     app.run(ssl_context=('cert.pem', 'key.pem'))

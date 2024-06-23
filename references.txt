@@ -10,3 +10,8 @@ https://ubuntu.com/tutorials/install-and-configure-nginx#4-setting-up-virtual-ho
 nginx and gunicorn setup:
 https://youtu.be/KWIIPKbdxD0?si=M5F9xVybnz_JEySx
 
+home html style taken from template:
+https://www.w3schools.com/css/css_rwd_templates.asp
+
+react backend authntication:
+https://youtu.be/sBw0O5YTT4Q?si=cIl88AtKhlQjMSOr
